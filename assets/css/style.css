@@ -67,6 +67,7 @@ footer h2 {
     font-size: 30px;
     font-style: oblique;
     margin: 10px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .75);
 }
 
 footer a {
@@ -93,3 +94,65 @@ footer div ul li {
     font-size: 1.5vw;
 }
 /* FOOTER STYLE ENDS */
+
+/* HERO STYLES */
+.hero {
+    height: 500px;
+    width: 100%;
+    margin: 0px;
+    background-image: url("../images/IMG_0783.JPG");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-text {
+    color: var(--primary-color);
+    font-size: 80px;
+    padding: 80px 10px;
+}
+/* HERO STYLES */
+
+
+/* ABOUT ME STYLES */
+.section-title {
+    padding-bottom: 15px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+    font-size: 50px;
+    color: var(--primary-color);
+    border-bottom: 3px solid;
+}
+
+.about-me {
+    background-color: var(--secondary-color);
+    border: var(--primary-color) solid;
+    padding: 0 20% 15px 20%;
+}
+
+.about-me h2 {
+    font-size: 50px;  
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+
+.bio {
+    display: flex;
+    justify-content: space-between;
+}
+.bio img {
+    margin: auto;
+    height: 500px;
+    width: 400px;
+    border: solid var(--primary-color);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+.bio p {
+    color: var(--primary-color);
+    font-size: 24px;
+    margin: 10px;
+    padding: 20px;
+    text-align: left;
+}
