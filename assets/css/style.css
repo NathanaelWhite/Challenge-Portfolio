@@ -106,9 +106,13 @@ footer div ul li {
 }
 
 .hero-text {
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
     color: var(--primary-color);
-    font-size: 80px;
+    font-size: 60px;
     padding: 80px 10px;
+    font-family: 'Courier New', Courier, monospace;
 }
 /* HERO STYLES */
 
@@ -126,7 +130,6 @@ footer div ul li {
 
 .about-me {
     background-color: var(--secondary-color);
-    border-bottom: var(--primary-color) solid;
     padding: 0 20% 15px 20%;
 }
 
@@ -166,23 +169,29 @@ footer div ul li {
 }
 
 .my-work h2 {
-    height: 100%;
-    margin: 20px 20px 50% 20px;
+    padding-bottom: 15px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
     font-size: 50px;
     color: var(--primary-color);
-    padding: 5px 5px 25px;
-    border-right: solid;
-
+    border-bottom: 3px solid;
 }
 
 .my-apps {
     margin: auto;
+    text-align: center;
 }
 
 .my-apps h3 {
     font-size: 25px;
     color: var(--primary-color);
     text-align: center;
+    margin: 10px;
+}
+
+.my-apps p {
+    margin: 0 auto 10px;
 }
 
 .run-buddy {
