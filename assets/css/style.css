@@ -126,7 +126,7 @@ footer div ul li {
 
 .about-me {
     background-color: var(--secondary-color);
-    border: var(--primary-color) solid;
+    border-bottom: var(--primary-color) solid;
     padding: 0 20% 15px 20%;
 }
 
@@ -134,7 +134,7 @@ footer div ul li {
     font-size: 50px;  
     text-align: center;
     flex-wrap: wrap;
-    margin: 20px auto;
+    padding: 5px;
 }
 
 .bio {
@@ -163,4 +163,35 @@ footer div ul li {
     justify-content: space-between;
     flex-wrap: wrap;
     background-color: var(--secondary-color);
+}
+
+.my-work h2 {
+    height: 100%;
+    margin: 20px 20px 50% 20px;
+    font-size: 50px;
+    color: var(--primary-color);
+    padding: 5px 5px 25px;
+    border-right: solid;
+
+}
+
+.my-apps {
+    margin: auto;
+}
+
+.my-apps h3 {
+    font-size: 25px;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.run-buddy {
+    width: 70%;
+    border: 5px solid;
+    border-color: var(--primary-color);
+}
+
+.horiseon {
+    width: 55%;
+    border: 5px solid var(--primary-color);
 }
