@@ -160,6 +160,7 @@ footer div ul li {
     justify-content: space-between;
     flex-wrap: wrap;
     background-color: var(--secondary-color);
+    padding: 0 20% 15px 20%;
 }
 
 .my-apps {
