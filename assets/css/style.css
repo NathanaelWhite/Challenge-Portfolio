@@ -179,8 +179,13 @@ footer div ul li {
     margin: 0 auto 10px;
 }
 
-.run-buddy {
+.NBA-Alley-oop {
     width: 70%;
+    border: 5px solid var(--primary-color);
+}
+
+.run-buddy {
+    width: 55%;
     border: 5px solid;
     border-color: var(--primary-color);
 }
